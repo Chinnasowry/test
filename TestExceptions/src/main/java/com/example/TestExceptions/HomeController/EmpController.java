@@ -30,7 +30,8 @@ public class EmpController {
 	@GetMapping("/getName/{empName}")
 	public ResponseEntity<Employee> getDataName(@PathVariable("empName") String empName ){
 
-		return new ResponseEntity<Employee>(empSer.dataGet(empName),HttpStatus.OK);			
+		return new ResponseEntity<Employee>(empSer.dataGet(empName),HttpStatus.OK);	
+		
 	}
 	
 	@PostMapping
