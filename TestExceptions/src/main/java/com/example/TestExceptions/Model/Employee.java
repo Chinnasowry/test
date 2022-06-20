@@ -9,7 +9,7 @@ import javax.persistence.Table;
 public class Employee {
 	
 	@Id
-	privat Long id;
+	private Long id;
 	
 	private String name;
 	
